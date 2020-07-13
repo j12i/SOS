@@ -1,5 +1,7 @@
 This is my take on backing up your soup.io history. Just the HTML files from last to first, only on the first page the assets are saved to have a copy of the CSS styling your page. It doesn't take care of saving the pictures and videos in the posts after the first page. Essentially it is just a wrapper around wget, which does the heavy lifting like retrying, cookies etc.
 
+*Only works with pagination (endless scrolling OFF).*
+
 Prerequisites: Python 3 and wget.
 
 ```
